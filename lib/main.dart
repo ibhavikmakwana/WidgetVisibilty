@@ -44,8 +44,10 @@ class _MyHomePageState extends State<MyHomePage> {
           crossAxisAlignment: CrossAxisAlignment.center,
           children: <Widget>[
             new Container(
-              child:
-                  _visibility ? new FlutterLogo(size: 200.0) : new Container(),
+              child: Offstage(
+                child: new FlutterLogo(size: 200.0),
+                offstage: _visibility,
+              ),
             ),
             new Row(
               mainAxisAlignment: MainAxisAlignment.center,
@@ -56,7 +58,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     children: <Widget>[
                       new FlatButton(
                         onPressed: () {
-                          _changeVisibility(true);
+                          _changeVisibility(false);
                         },
                         child: Text("Visible"),
                       ),
@@ -69,7 +71,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     children: <Widget>[
                       new FlatButton(
                         onPressed: () {
-                          _changeVisibility(false);
+                          _changeVisibility(true);
                         },
                         child: Text("Hide"),
                       ),
