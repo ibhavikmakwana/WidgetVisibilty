@@ -4,7 +4,7 @@ A new Flutter sample to demonstrate how to `Show` and `Hide` the Widget.
 
 # Preview
 
-| <img src="./sample/demo.gif" height="400" alt="Screenshot"/>  |
+<img src="./sample/demo.gif" height="400" alt="Screenshot"/>
 
 ## Getting Started
 
