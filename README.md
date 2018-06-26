@@ -1,8 +1,13 @@
-# widget_visibility
+# Widget Visibilty
 
-A new Flutter application.
+A new Flutter sample to demonstrate how to `Show` and `Hide` the Widget.
+
+# Preview
+
+| ------------------ |
+| <img src="./sample/demo.gif" height="400" alt="Screenshot"/>  |
 
 ## Getting Started
 
-For help getting started with Flutter, view our online
+For help getting started with Flutter, view online
 [documentation](https://flutter.io/).
